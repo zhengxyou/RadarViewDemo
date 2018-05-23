@@ -16,18 +16,18 @@ import java.util.Random;
  * Created by zhengxyou@163.com on 2018/5/23.
  */
 public class RaDar2View extends View {
-    private final int HIERARCHY = 5;
+    private final int HIERARCHY = 5;//层级
     private final float maxValue = 100.0f;
-    private ArrayList<String> titles = new ArrayList<>();
-    private ArrayList<Integer> values = new ArrayList<>();
-    private int fillAlpha = 122;
+    private ArrayList<String> titles = new ArrayList<>();//标题
+    private ArrayList<Integer> values = new ArrayList<>();//值
+    private int fillAlpha = 122;//值遮盖的透明度
     private int count = 6;//几边形
     private Paint.Style mStyle = Paint.Style.FILL;
     private float radius;
     private float angle;
     private float centerX;
     private float centerY;
-    private boolean isDrawCircle = false;
+    private boolean isDrawCircle = false;//值点是否显示画小圆
     private float mCirCleRadius = 3;
     private Paint mainPaint;
     private Paint valuePaint;

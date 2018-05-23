@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         radio.setCount(3);
         RaDar2View radio2 = findViewById(R.id.radio2);
         radio2.setCount(8);
-
+        radio2.setDrawCircle(true);
     }
 }
